@@ -1,0 +1,24 @@
+button {
+  background-color: red;
+  border-radius: 10px;
+}
+p {
+  color: green;
+  width: 50%;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  background-color: blueviolet;
+}
+
+img {
+  width: 100px;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+  border-radius: 10px;
+  /* border: 5px dotted purple; */
+}

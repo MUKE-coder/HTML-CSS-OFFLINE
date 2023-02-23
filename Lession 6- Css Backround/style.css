@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color */
+
+/* body {
+  background: blue;
+  color: white;
+} */
+
+/* Linear gradient */
+body {
+  padding: 300px;
+  height: 100vh;
+  /* background: linear-gradient(blue, pink); */
+  background: linear-gradient(45deg, blue, pink);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, green, orange);
+}
+
+.container-with-bg {
+  text-align: center;
+  background: url("./computer.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  padding: 100px;
+}
+
+.linear-bg {
+  height: 100vh;
+  background: linear-gradient(45deg, darkblue, rgba(255, 192, 203, 0.7)),
+    url("./laptop.jpg");
+  background-size: cover;
+}
+
+button {
+  padding: 20px 60px;
+  font-size: 30px;
+  background-color: bisque;
+  border: none;
+  margin: 20px;
+}
